@@ -1,0 +1,111 @@
+App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff3cac, #562bff, #00eaff);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+  border: 2px solid #ffcc00;
+  border-radius: 5px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #ff3cac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.search-form button:hover {
+  background: #ffcc00;
+  color: #333;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff3cac;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.movie-poster {
+  width: 300px;
+  border-radius: 8px;
+  border: 3px solid #ffcc00;
+}
+
+.details {
+  margin-top: 20px;
+  line-height: 1.8;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #ff3cac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ffcc00;
+  color: #333;
+}
